@@ -66,11 +66,11 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void playSuccess() {
-    player.play('success.wav');
+    player.play('success.mp3');
   }
 
   void playFail() {
-    player.play('fail.wav');
+    player.play('fail.mp3');
   }
 
   @override
